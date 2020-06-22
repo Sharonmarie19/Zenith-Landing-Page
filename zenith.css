@@ -2,20 +2,24 @@
     --buttong-bgcolor:blueviolet;
 
 }
-
-
-
-body {
-  background-image: url(./images/hero-bg-texture.png);
-  background-color: #cccccc;
+img{
+    width: 100%;
 }
+.nav_log{
+    width: 20%;
+}
+
 .form_list{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    width: 40px;
+    width: 30px;
 }
-.form_button{
+button{
     background-color: blueviolet;
     width: 60px;
+    font-size: 10px;
 
+}
+.body_img{
+    width: 10%;
 }
