@@ -1,0 +1,21 @@
+:root{
+    --buttong-bgcolor:blueviolet;
+
+}
+
+
+
+body {
+  background-image: url(./images/hero-bg-texture.png);
+  background-color: #cccccc;
+}
+.form_list{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 40px;
+}
+.form_button{
+    background-color: blueviolet;
+    width: 60px;
+
+}
