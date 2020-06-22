@@ -1,25 +1,52 @@
 :root{
-    --buttong-bgcolor:blueviolet;
-
+    --button-bgcolor:linear-gradient(to top right,#007bff 0%, #ab00ff 100%);
+    --font-color:linear-gradient(to top ,#007bff 0%, #ab00ff 100%);
 }
 img{
     width: 100%;
 }
-.nav_log{
-    width: 20%;
+.nav{
+    
+}
+div{
+    background-color: #ab00ff;
+    width: 35px;
+    height: 3px;
+    margin: 6px 0;
+    
+}
+.one{
+    background-color: #ab00ff;
+    width: 20px;
+    height: 3px;
+    margin: 0 15px;  
+}
+.nav-bar{
+    display: none;
+}
+li{
+    list-style: none;
 }
 
-.form_list{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    width: 30px;
+.hero_text{
+    text-align: left;
 }
-button{
-    background-color: blueviolet;
-    width: 60px;
-    font-size: 10px;
 
+.body_text{
+    text-align: center;
 }
-.body_img{
-    width: 10%;
+
+.body_products-text{
+    text-align: center;
+}
+
+@media(min-width:550px){
+    .nav-bar{
+      display: flex;
+      flex-direction: row;
+    }
+
+    div{
+        display: none;
+    }
 }
