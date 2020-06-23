@@ -2,51 +2,114 @@
     --button-bgcolor:linear-gradient(to top right,#007bff 0%, #ab00ff 100%);
     --font-color:linear-gradient(to top ,#007bff 0%, #ab00ff 100%);
 }
+
+/* Base Styles */
+
+body{
+    font-family: ;
+}
 img{
     width: 100%;
 }
-.nav{
-    
+ 
+li{
+    list-style: none;}
+h4{
+    font-size: 20px;
 }
-div{
-    background-color: #ab00ff;
-    width: 35px;
-    height: 3px;
-    margin: 6px 0;
-    
-}
-.one{
-    background-color: #ab00ff;
-    width: 20px;
-    height: 3px;
-    margin: 0 15px;  
-}
-.nav-bar{
+p{
+    font-size: 12px;
+    }
+
+
+
+
+
+
+
+/* Layout Styles */
+.nav-bar ul{
     display: none;
 }
-li{
-    list-style: none;
+.hero-card{
+    position: relative;
+    bottom: 180px;
+    border: rgba(105, 105, 105, 0.158) solid .5px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+
+}
+.nav-bar_ham{
+    display: block;
+    background-color:#ab00ff;
+    width: 25px;
+    height: 2px;
+
+}
+   .body_image{
+       display: flex;
+       justify-content: space-around;
+       position: relative;
+       bottom: 180px;
+       border: rgba(105, 105, 105, 0.158) solid .5px;
+       border-radius: 5px;
+       padding: 5px;
+       background-color: white;
+       padding: 10px;
+       position: relative;
+       top:50px
+   } 
+.body{
+    position: relative;
+    bottom: 0px;
 }
 
-.hero_text{
-    text-align: left;
+.body_products{
+    margin-bottom: 30px;
+}
+/* Block Styles */
+.nav-bar{
+    display: flex;
+    justify-content: flex-start;
+}
+.nav-bar_logo{
+    width: 40%;
+    padding: 10px;
 }
 
-.body_text{
-    text-align: center;
+.hero_img{
+    position: relative;
+    bottom: 80px;
+    
+}
+.body_features{
+    width: 5%;
+}
+.body_product-images{
+    width: 20%;
+}
+.body_products-tools{
+    display: inline;
+    align-content: space-evenly;
 }
 
-.body_products-text{
-    text-align: center;
-}
 
-@media(min-width:550px){
-    .nav-bar{
-      display: flex;
-      flex-direction: row;
-    }
 
-    div{
-        display: none;
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 550px){}
