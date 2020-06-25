@@ -3,101 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@900&display=swap" rel="stylesheet">
    
     <link rel="stylesheet" href="zenith.css">
     <title>Document</title>
 </head>
-<header class="nav">
+<header class="header_container">
     <nav class="nav-bar">
-        <img src="./images/zenith-logo.png" alt="" class="nav-bar_logo">
-        <div class="nav-bar_ham"></div>
-        <div></div>
-        <div class="nav-ham_2"></div>
-        </div>
-        <ul>
-            <li> <a href="">FEATURES</a></li>
-            <li> <a href="">INTEGRATIONS</a></li>
-            <button class="nav_button">GET ZENITH</button>
+        <img src="./images/zenith-logo.png" alt="" class="nav_logo">
+        <span></span>
+        <span></span>
+        <ul class="nav-bar_ul">
+            <li>FEATURES</li>
+            <LI>INTEGRATIONS</LI>
+            <button class="nav-bar_button">GET ZENITH</button>
         </ul>
-    </nav> 
-</header>
-
-
-<body>
-    <section class='hero'>
-        <h4>All your <br> communication. <br> One place.</h4 class="hero_text">
-        <img src="./images/hero-bg-texture.png" alt="" class="hero_img">
-       
-        <div class="hero-card">
-           <p>If you have not already, please indicate interest in benefits to my abovemessage.  I'd like to get this implemented ASAP and need to know numbers of who subscribed.  Thanks!</p>
-           <input type="text" name="" id="hero-card-input" max="100">
-           <button class="hero-card_button">Reply</button>
-        </div>
-    </section>
+    </nav>
     
- <section class="body">
-    <h4 class="body_text">The features that matter</h4 >
-       
-        <div class="body_image">
-            <p>Mark all your completed <br> threads in on place</p>
-            <img src="./images/features-checkboxes.png" alt="" class="body_features">
-            </div>
-        
-        <div class="body_image">  
-            <p>Integrate all your <br> communication platforms</p>
-            <img src="./images/features-integrations.png" alt=""class="body_features">
-        </div> 
-            
-        <div class="body_image"> 
-            <p>See all your notifications in <br> one place</p>
-            <img src="./images/features-notifications.png" alt=""class="body_features">
-        </div>  
+</header>
+<body>
+<section class="body-head">
+    <div class="body-heading-card">
+    <h4>All your <br> communication. <br>One place.</h4>
     </div>
-        <img src="./images/zenith-dasboard.png" alt="">
+    <img src="./images/hero-bg-texture.png" alt="" class="hero-image">  
+    <img src="./images/inbound-card.png" alt="" class="body-image-card">
+</section>
 
- </section>
+<section class="features">
+    <h4 class="feature-title">The features that matter</h4>
 
-     <section class="body_products">
-        <h4 class="body_products-text">Your favorite products finally together</h4>
-    <div class="body_products-tools">
-        <img src="./images/slack-full.png" alt="" class="body_product-images">
-        <img src="./images/trello.png" alt=""class="body_product-images">
-        <img src="./images/google.png" alt=""class="body_product-images">
-        <img src="./images/jira.png" alt=""class="body_product-images">
-        <img src="./images/asana.png" alt=""class="body_product-images">
+    <div class="feature_container">
+        <p>Mark all your completed threads in one place</p>
+        <img src="./images/features-checkboxes.png" alt="" class="body-features">
     </div>
-     </section>
+    <div class="feature_container">
+        <p>Integrate all your communication platforms</p>
+        <img src="./images/features-integrations.png" alt="" class="body-features">
+    </div>
+    <div class="feature_container">
+        <p>See all your notifications in one  place</p>
+        <img src="./images/features-notifications.png" alt="" class="body-features">
+    </div>
+</div>
 
-     <footer class="footer_form">
-         <div>
-         <h3>Stay up to date</h3>
-         <input type="email" name="" id="" placeholder="Email">
-         <button>Download</button>
-         </div>
-         <ul class="footer_ul">
-             <li><a href=""></a> Contact</li>
-             <li><a href=""></a>Our Team</li>
-             <li><a href=""></a>Policies</li>
-             <li><a href=""></a>Privacy & Terms</li>
-         </ul>
-    </footer>
-  <!-- <section class="form_section">
-        <form action="" class="form_list">
-          <label for="name">Name</label>
-          <input type="text" name="name" id="form_name" size="32">
-          <label for="emal">Email</label>
-          <input type="email" name="email" id="form-email" size="32">
-          <label for="">Where Did You Hear About Us?</label>
-          <select name="choices" id="form-choices">
-              <option value="in-store-kisok">In-Store Kiosks</option>
-              <option value="conference">Trade Conference</option>
-              <option value="publication">Magazine/Newspaper</option>
-              <option value="sm_advert">Social Media</option>
-              <option value="">Elsewhere</option>   
-          </select>
-          <button class="form_button">Submit</button >
-        </form>
-  </section>   -->
+</section>
+<img src="./images/zenith-dasboard.png" alt="">
+<section>
+<h4 class="product_title">Your favorite products finally together</h4>
+<div class="products-container">
+    <img src="./images/slack-full.png" alt="" class="products grid1 product">
+    <img src="./images/trello.png" alt=""class="products">
+    <img src="./images/google.png" alt=""class="products">
+    <img src="./images/jira.png" alt=""class="products">
+    <img src="./images/asana.png" alt=""class="products box5">
+</div>
+</section>
 
+<footer >
+<div>
+    <h4 class="Form-title">Stay up to date</h4>
+</div>
+<div>
+    <input type="email" name="email" id="" placeholder="Email address" class="footer-input">
+    <button class="footer-button">Download</button>
+</div>
+<div class="footer_list">
+    <ul class="footer_list-ul">
+        <li>CONTACT</li>
+        <li>OUR TEAM</li>
+        <li>POLICIES</li>
+        <li>PRIVACY & TERMS</li>
+    </ul>
+</div>
+</footer>
 </body>
 </html>
